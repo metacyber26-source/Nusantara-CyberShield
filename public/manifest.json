@@ -1,0 +1,72 @@
+{
+  "name": "Aegis Guardian AI",
+  "short_name": "Aegis",
+  "description": "100% on-device security with AGI engine, deepfake detection, theft-lock, and data protection",
+  "start_url": "/",
+  "scope": "/",
+  "display": "standalone",
+  "orientation": "portrait-primary",
+  "theme_color": "#0a0a0f",
+  "background_color": "#0a0a0f",
+  "icons": [
+    {
+      "src": "data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 192 192'><rect fill='%230a0a0f'/><g fill='%2300ff88'><rect x='48' y='48' width='96' height='96' rx='12'/><circle cx='96' cy='96' r='24' fill='%230a0a0f'/><path d='M96 48v-8M96 152v8M144 96h8M40 96h-8M135 57l5.7-5.7M51.3 140.7l5.7 5.7M57 135l-5.7 5.7M140.7 51.3l5.7 5.7'/></g></svg>",
+      "sizes": "192x192",
+      "type": "image/svg+xml",
+      "purpose": "any"
+    },
+    {
+      "src": "data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 512 512'><rect fill='%230a0a0f'/><g fill='%2300ff88'><rect x='128' y='128' width='256' height='256' rx='32'/><circle cx='256' cy='256' r='64' fill='%230a0a0f'/><path d='M256 128v-32M256 416v32M384 256h32M96 256h-32M369 143l23-23M143 369l23 23M143 369l-23 23M369 143l23-23'/></g></svg>",
+      "sizes": "512x512",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    }
+  ],
+  "categories": ["security", "utilities"],
+  "screenshots": [
+    {
+      "src": "data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 540 720'><rect fill='%230a0a0f'/><text x='50%' y='50%' fill='%2300ff88' font-size='48' text-anchor='middle' dominant-baseline='middle'>Aegis Guardian AI</text></svg>",
+      "sizes": "540x720",
+      "type": "image/svg+xml",
+      "form_factor": "narrow"
+    }
+  ],
+  "shortcuts": [
+    {
+      "name": "Dashboard",
+      "short_name": "Security Status",
+      "description": "View real-time security status and threat level",
+      "url": "/?tab=dashboard",
+      "icons": [
+        {
+          "src": "data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 192 192'><rect fill='%230a0a0f'/><g fill='%2300ff88'><rect x='48' y='48' width='96' height='96' rx='12'/></g></svg>",
+          "sizes": "192x192",
+          "type": "image/svg+xml"
+        }
+      ]
+    },
+    {
+      "name": "AGI Assistant",
+      "short_name": "Ask AGI",
+      "description": "Chat with Aegis AGI for security insights",
+      "url": "/?tab=agi",
+      "icons": [
+        {
+          "src": "data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 192 192'><rect fill='%230a0a0f'/><g fill='%234488ff'><path d='M96 40c30.9 0 56 25.1 56 56s-25.1 56-56 56-56-25.1-56-56 25.1-56 56-56m0-8c-35.3 0-64 28.7-64 64s28.7 64 64 64 64-28.7 64-64-28.7-64-64-64z'/></g></svg>",
+          "sizes": "192x192",
+          "type": "image/svg+xml"
+        }
+      ]
+    }
+  ],
+  "share_target": {
+    "action": "/share",
+    "method": "POST",
+    "enctype": "application/x-www-form-urlencoded",
+    "params": {
+      "title": "title",
+      "text": "text",
+      "url": "url"
+    }
+  }
+}
